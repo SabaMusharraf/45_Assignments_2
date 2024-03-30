@@ -6,13 +6,13 @@ console.log(5 + 3)
 
 Your output should simply be four lines with the number 8 appearing once on each line. */
 // By using Function Method
-// function sum (){
-//     console.log(5 + 3);
-// }
-// sum();
-// sum();
-// sum();
-// sum();
+function sum() {
+    console.log(5 + 3);
+}
+sum();
+sum();
+sum();
+sum();
 // By using For Loop
 let i = 0;
 let n = 4;
