@@ -6,3 +6,4 @@ Print the name once, so the whitespace around the name is displayed. Then print 
 the white spaces. */
 let theName = "Quaid-e-Azam Muhammad Ali Jinnah";
 console.log(`\t ${theName}\t is the founder of Pakistan.`);
+console.log(`${theName} is the founder of Pakistan.\n He was born in Karachi.`);
