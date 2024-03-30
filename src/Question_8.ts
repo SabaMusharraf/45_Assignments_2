@@ -8,14 +8,14 @@ Your output should simply be four lines with the number 8 appearing once on each
 
 // By using Function Method
 
-// function sum (){
-//     console.log(5 + 3);
-// }
+function sum (){
+    console.log(5 + 3);
+}
 
-// sum();
-// sum();
-// sum();
-// sum();
+sum();
+sum();
+sum();
+sum();
 
 // By using For Loop
 
