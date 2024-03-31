@@ -14,11 +14,11 @@ program does.  */
 // In this program I make a function that calculate and print print the number 4 times.
 
 
-function sum (){
+function sum_1 (){
     console.log(5 + 3);
 }
 
-sum();
-sum();
-sum();
-sum();
+sum_1();
+sum_1();
+sum_1();
+sum_1();
