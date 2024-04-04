@@ -14,12 +14,34 @@ to dinner.
 • Remove the last two names from your list, so you have an empty list. Print your list to make sure you 
 actually have an empty list at the end of your program. */
 
-let guestList_1 = ['Fatima', 'Maryam', 'Aamna', 'Hina', 'Iffat'];
-let messageForDinner = "on the dining table, there is only at least two persons space due to sme time issue";
-let paradonMessage = "Sorry, I can't invite to the dinner due to some time issue"
-console.log(messageForDinner);
-guestList_1.pop();
+let guestList_1 = ['Fatima', 'Maryam', 'Hina', 'Aamna', 'Iffat'];
+let messageToGuest = "on the dining table, there is only at least two persons space due to s0me time issuence ";
+let paradonMessage = "Sorry, I can't invite to the dinner due to some time issue";
+let messageForDinne = "You are invited to the dinner";
+console.log(messageToGuest);
+
+
 console.log(guestList_1);
 
+//Remove from the end by using pop method
+console.log(guestList_1.pop() , paradonMessage);
+console.log(guestList_1);
+//Remove form start by using shift method
 console.log(guestList_1.shift() , paradonMessage);
+console.log(guestList_1);
+//Remove from the middle by using splice method
+console.log(guestList_1.splice(1,1), paradonMessage);
+console.log(guestList_1);
+//Print the message to the guest by using for each loop
+
+guestList_1.forEach((guest)=>{
+    console.log(guest , messageForDinne);
+})
+
+//Remove remaing guest form the list by using splice method
+
+guestList_1.splice(0,2);
+console.log(guestList_1);
+
+
 
