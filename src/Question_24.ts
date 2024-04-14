@@ -17,15 +17,21 @@
  
 console.log("Tests for equality and inequality with strings");
 // Show Equality
-let number_1:number = 200; 
-let number_2:string = "200";
-let test_11 = number_1 == number_2 ? "true": "false";
+// let number_1:number = 200; 
+// let number_2:string = "200";
+// let test_11 = number_1 == number_2 ? "true": "false";
 
-console.log(test_11);
+// console.log(test_11);
 
-// Show UnEqualtiy
-let test_12 = number_1 === number_2 ? "true": "false";
-console.log(test_12);
+// // Show UnEqualtiy
+// let test_12 = number_1 === number_2 ? "true": "false";
+// console.log(test_12);
+
+let myString1 = "Pakistan";
+let myString2 = "china";
+
+let mytest = myString1 == myString2;
+console.log(mytest);
 
 console.log("Tests using the lower case function");
 
@@ -66,6 +72,7 @@ console.log("less than or equal to")
 let test_19 = num1 <= num2;
 console.log(test_19);
 
+//• Tests using "and" and "or" operators
 console.log('Tests using condition "and"');
 
 let test_20 = num1 > num2 && num1 !== num2;
@@ -77,3 +84,14 @@ console.log(test_25);
 console.log('Test using condition "or"');
 let test_26 = num1 !== num2 || num1 == num2;
 console.log(test_26);
+
+//Test whether an item is in a array
+console.log("Test whether an item is in a array");
+
+let bookHoly = ["Quran", "Tawrat", "Zabur", "Injil"];
+
+// Test whether an item is not in a array 
+console.log("Test whether an item is not in a array ");
+
+console.log(bookHoly.includes("Quran"));
+console.log(!bookHoly.includes("Injil"));
