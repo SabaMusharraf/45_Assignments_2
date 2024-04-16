@@ -9,13 +9,41 @@
 
 • Write three versions of this program, making sure each message is printed for the appropriate color alien. */
 
-let aleinColor_3 = "green";
-if (aleinColor_3 === "green"){
+//Version 1
+
+let aleinColor_1 = "green";
+if (aleinColor_1 === "green"){
     console.log("The player earned 5 points");
 }
-else if(aleinColor_3 === "yellow"){
+else if(aleinColor_1 === "yellow"){
     console.log("The player earned 10 points");
 }
-else if (aleinColor_3 === "red"){
+else if (aleinColor_1 === "red"){
     console.log("The player earned 15 points");
+}
+
+// Version 2
+
+let aleinColor_2 = "yellow";
+if (aleinColor_2 === "yellow"){
+    console.log("The player earned 10 points");
+}
+else if(aleinColor_2 === "green"){
+    console.log("The player earned 5 points");
+}
+else if (aleinColor_2 === "red"){
+    console.log("The player earned 15 points");
+}
+
+// Version 3
+
+let aleinColor_3 = "red";
+if (aleinColor_3 === "red"){
+    console.log("The player earned 15 points");
+}
+else if(aleinColor_3 === "green"){
+    console.log("The player earned 5 points");
+}
+else if (aleinColor_3 === "yellow"){
+    console.log("The player earned 10 points");
 }

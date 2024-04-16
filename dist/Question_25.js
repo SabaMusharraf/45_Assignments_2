@@ -9,5 +9,8 @@ and assign it a value of 'green', 'yellow', or 'red'.
 (The version that fails will have no output.) */
 let alien_color = "green";
 if (alien_color === "green") {
-    console.log("you earned 5 points");
+    console.log("The player earned 5 points");
+}
+if (alien_color === "black") {
+    console.log("the players have no points");
 }

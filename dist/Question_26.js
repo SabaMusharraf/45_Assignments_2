@@ -6,10 +6,16 @@
 • If the alien’s color isn’t green, print a statement that the player just earned 10 points.
 
 • Write one version of this program that runs the if block and another that runs the else block. */
-let aleinColor_2 = "red";
-if (aleinColor_2 === "green") {
-    console.log("the player earned 10 points");
+let aleinColor2 = "green";
+if (aleinColor2 === "green") {
+    console.log("the player earned 5 points");
 }
 else {
-    console.log("You earned 10 points");
+    console.log("The player earned 10 points");
+}
+if (aleinColor2 === "red") {
+    console.log("The player earned 10 points");
+}
+else {
+    console.log("the player earned 5 points");
 }

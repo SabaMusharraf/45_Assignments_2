@@ -65,5 +65,7 @@ console.log(test_26);
 //Test whether an item is in a array
 console.log("Test whether an item is in a array");
 let bookHoly = ["Quran", "Tawrat", "Zabur", "Injil"];
+// Test whether an item is not in a array 
+console.log("Test whether an item is not in a array ");
 console.log(bookHoly.includes("Quran"));
 console.log(!bookHoly.includes("Injil"));
