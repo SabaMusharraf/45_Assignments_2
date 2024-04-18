@@ -12,7 +12,7 @@ for (let i of petAnimals) {
 }
 // Print the animals name with a sentence
 for (let animal of petAnimals) {
-    console.log(`A ${animal} would make a great pet`);
-    console.log("It would make a great pet");
+    console.log(`A ${animal} would make a great pet.`);
+    console.log("It would make a great pet.");
 }
 console.log("Any of these animals would make a great pet");
