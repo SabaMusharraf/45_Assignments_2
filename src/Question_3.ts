@@ -14,6 +14,10 @@ console.log(myName.toUpperCase());
 // Title Case
 console.log(myName.replace (/\b\w/g,(char)=> char.toUpperCase()));
 
-let sentance:string = "a quick brown fox jumps over the lazy dog"
+let sentence:string = "a quick brown fox jumps over the lazy dog";
 
-console.log(sentance.replace (/\b\w/g,(char)=> char.toUpperCase()));
+console.log(sentence.replace (/\b\w/g,(char)=> char.toUpperCase()));
+
+console.log(sentance)
+
+
