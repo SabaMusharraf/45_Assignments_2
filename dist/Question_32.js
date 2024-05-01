@@ -1,4 +1,3 @@
-"use strict";
 // Question # 32
 /* Checking Usernames: Do the following to create a program that simulates how websites ensure that everyone
  has a unique username.
@@ -23,3 +22,4 @@ new_users.forEach(new_user_name => {
         console.log(`${new_user_name} is available`);
     }
 });
+export {};

@@ -1,4 +1,3 @@
-"use strict";
 // Question # 23
 /* Conditional Tests: Write a series of conditional tests. Print a statement describing each test and your
 prediction for the results of each test. Your code should look something like this:
@@ -39,3 +38,4 @@ let test_9 = x < y ? "tue" : "false";
 console.log(test_9);
 let test_10 = y > x ? "true" : "false";
 console.log(test_10);
+export {};

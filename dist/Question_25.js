@@ -1,4 +1,3 @@
-"use strict";
 // Question # 25
 /* Alien Colors #1: Imagine an alien was just shot down in a game. Create a variable called alien_color
 and assign it a value of 'green', 'yellow', or 'red'.
@@ -14,3 +13,4 @@ if (alien_color === "green") {
 if (alien_color === "black") {
     console.log("the players have no points");
 }
+export {};

@@ -1,4 +1,3 @@
-"use strict";
 // Question # 8
 /* You should create four lines that look like this:
 
@@ -19,3 +18,4 @@ let n = 4;
 for (let i = 1; i <= n; i++) {
     console.log(5 + 3);
 }
+export {};

@@ -1,4 +1,3 @@
-"use strict";
 // Question # 43
 /* Unchanged Magicians: Start with your work from Exercise 40. Call the function make_great()
 with a copy of the array of magicians’ names. Because the original array will be unchanged,
@@ -19,3 +18,4 @@ show_magicians1(magicians_name);
 // This is a copy of an array
 console.log("Copied Array");
 show_magicians1(copy_great_magician);
+export {};

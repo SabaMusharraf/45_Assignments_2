@@ -1,4 +1,3 @@
-"use strict";
 // Question # 17
 /* Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner,
 and you have space for only two guests.
@@ -35,3 +34,4 @@ guestList_1.forEach((guest) => {
 //Remove remaing guest form the list by using splice method
 guestList_1.splice(0, 2);
 console.log(guestList_1);
+export {};

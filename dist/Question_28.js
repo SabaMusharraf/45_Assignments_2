@@ -1,4 +1,3 @@
-"use strict";
 // Question # 28
 /* Stages of Life: Write an if-else chain that determines a person’s stage of life. Set a value for the variable
 age, and then:
@@ -32,3 +31,4 @@ else if (age >= 20 && age <= 65) {
 else if (age > 65) {
     console.log("The person is an elder");
 }
+export {};

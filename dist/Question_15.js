@@ -1,4 +1,3 @@
-"use strict";
 // Question # 15
 /* Changing Guest List: You just heard that one of your guests can’t make the dinner, so you need to send out
  a new set of invitations. You’ll have to think of someone else to invite.
@@ -19,3 +18,4 @@ console.log("This is a new guest list", guestList);
 guestList.forEach((guests) => {
     console.log(`${guests}, ${invitation_1} `);
 });
+export {};

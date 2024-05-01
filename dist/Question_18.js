@@ -1,4 +1,3 @@
-"use strict";
 //Question # 18
 /* Seeing the World: Think of at least five places in the world you’d like to visit.
 • Store the locations in a array. Make sure the array is not in alphabetical order.
@@ -42,3 +41,4 @@ console.log("Reverse again and trun it to its first original condition:", countr
 console.log("Original Array in Alphabetical Order:", countries.sort());
 //Print the original array in reverse mode
 console.log("Original Array in Reverse mode: ", countries.reverse());
+export {};

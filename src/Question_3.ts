@@ -18,6 +18,8 @@ let sentence:string = "a quick brown fox jumps over the lazy dog";
 
 console.log(sentence.replace (/\b\w/g,(char)=> char.toUpperCase()));
 
-console.log(sentance)
+let sentence1:string = "A Quick Brown Fox Jumps Over the Lazy Dog";
+
+console.log(sentence1.replace(/\b\w/g,(char)=>char.toLowerCase()));
 
 

@@ -1,4 +1,3 @@
-"use strict";
 // Question # 29
 /* Favorite Fruit: Make a array of your favorite fruits, and then write a series of independent if
 statements that check for certain fruits in your array.
@@ -22,3 +21,4 @@ if (favorite_fruits.includes("Banana")) {
 if (favorite_fruits.includes("Watermelon")) {
     console.log("I really like Watermelon");
 }
+export {};

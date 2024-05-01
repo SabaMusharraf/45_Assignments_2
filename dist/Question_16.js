@@ -1,4 +1,3 @@
-"use strict";
 // Question # 16
 /* More Guests: You just found a bigger dinner table, so now more space is available. Think of three more guests
 to invite to dinner.
@@ -17,3 +16,4 @@ console.log(guestList_2);
 // Add guest name to  middle of the array
 guestList_2.splice(2, 0, "Aamna");
 console.log(guestList_2);
+export {};

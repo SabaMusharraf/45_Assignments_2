@@ -8,3 +8,5 @@ Albert Einstein once said, “A person who never made a mistake never tried anyt
 console.log('Albert Einstein once said, "A person who never made a mistake never tried anything new."');
 
 console.log('Quaid -e- Azam said, "Think 100 times before you take a decision, But once that decision is taken, stand by it as one man."')
+
+console.log("Newton's 3rd law of motion,\"Every action has an equal and opposite reaction.\"")

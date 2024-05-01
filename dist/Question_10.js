@@ -1,4 +1,3 @@
-"use strict";
 // Question # 10
 /* Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each.
 If you don’t have anything specific to write because your programs are too simple at this point, just add
@@ -16,3 +15,4 @@ sum_1();
 sum_1();
 sum_1();
 sum_1();
+export {};

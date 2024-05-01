@@ -1,4 +1,3 @@
-"use strict";
 // Question # 40
 /* Album: Write a function called make_album() that builds a Object describing a music album.
 The function should take in an artist name and an album title, and it should return a Object containing
@@ -24,3 +23,4 @@ let music_album3 = make_album("Atif Aslam", "Doori", 30);
 console.log(music_album1);
 console.log(music_album2);
 console.log(music_album3);
+export {};
