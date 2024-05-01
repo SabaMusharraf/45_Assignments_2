@@ -5,7 +5,13 @@ end of the name. Make sure you use each character combination, "\t" and "\n", at
 Print the name once, so the whitespace around the name is displayed. Then print the name after striping 
 the white spaces. */
 
-let theName: string = "Quaid-e-Azam Muhammad Ali Jinnah"
-console.log(`\t ${theName}\t is the founder of Pakistan.`);
+let theName: string = "\tQuaid-e-Azam Muhammad Ali Jinnah\t";
+
+let withOutWhiteSpace = theName.trim();
+console.log(`${theName} is the founder of Pakistan.`);
 
 console.log(`${theName} is the founder of Pakistan.\n He was born in Karachi.`);
+
+console.log(`${theName} is the founder of Pakistan.\n He was born in Karachi, \n on 25th december 1876.`);
+
+console.log(withOutWhiteSpace, "is the founder of Pakistan");
