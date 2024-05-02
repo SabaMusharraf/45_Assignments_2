@@ -10,8 +10,9 @@ let theName: string = "\tQuaid-e-Azam Muhammad Ali Jinnah\t";
 let withOutWhiteSpace = theName.trim();
 console.log(`${theName} is the founder of Pakistan.`);
 
-console.log(`${theName} is the founder of Pakistan.\n He was born in Karachi.`);
+console.log(`\n${theName} is the founder of Pakistan.\n He was born in Karachi.\n`);
 
 console.log(`${theName} is the founder of Pakistan.\n He was born in Karachi, \n on 25th december 1876.`);
 
-console.log(withOutWhiteSpace, "is the founder of Pakistan");
+// print without white spaces
+console.log("\n", withOutWhiteSpace, "is the founder of Pakistan\n");

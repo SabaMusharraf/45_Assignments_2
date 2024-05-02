@@ -19,7 +19,7 @@ let newMessage = "I want to invite morre guest because I found bigger dinning ta
 guestList_2.unshift("Fatima");
 console.log(guestList_2);
 
-// Add guest name to  middle of the array
+// Add guest name to middle of the array
 
 guestList_2.splice(2,0,"Aamna");
 console.log(guestList_2);

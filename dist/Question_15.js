@@ -18,4 +18,6 @@ console.log("This is a new guest list", guestList);
 guestList.forEach((guests) => {
     console.log(`${guests}, ${invitation_1} `);
 });
+console.log("\n");
+guestList.forEach(guest => console.log(guest, invitation_1));
 export {};
