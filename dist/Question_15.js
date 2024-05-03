@@ -11,13 +11,16 @@ you are inviting.
 • Print a second set of invitation messages, one for each person who is still in your list. */
 let guestList = ["Maryam", "Hina", "Maira"];
 let invitation_1 = "You are invited to dinner";
+// Delete from the last and return the deleted value
 console.log(guestList.pop(), "Can't make the dinner");
 console.log(guestList);
+//Add a new guest name
 guestList.push("Iffat");
+// After adding a new guest name
 console.log("This is a new guest list", guestList);
 guestList.forEach((guests) => {
     console.log(`${guests}, ${invitation_1} `);
 });
-console.log("\n");
-guestList.forEach(guest => console.log(guest, invitation_1));
 export {};
+// console.log("\n");
+// guestList.forEach(guest=> console.log(guest, invitation_1));

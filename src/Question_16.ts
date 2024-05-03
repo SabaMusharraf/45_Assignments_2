@@ -12,7 +12,7 @@ that you found a bigger dinner table.
 
 let guestList_2 = ["Maryam", "Hina", "Iffat"];
 
-let newMessage = "I want to invite morre guest because I found bigger dinning table";
+let newMessage = "I want to invite more guest because I found bigger dinning table";
 
 // Add guest name to the beggining of the array
 
@@ -23,3 +23,14 @@ console.log(guestList_2);
 
 guestList_2.splice(2,0,"Aamna");
 console.log(guestList_2);
+
+// Add guest name to the end of the array
+
+guestList_2.push("Abdul Azeem");
+console.log(guestList_2);
+
+// Print the names with invitation message
+
+console.log(newMessage);
+guestList_2.forEach(guest => console.log(`${guest} you are invited to the dinner tonight.`))
+
