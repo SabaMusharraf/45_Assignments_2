@@ -12,7 +12,7 @@ that you found a bigger dinner table.
 
 let guestList_2 = ["Maryam", "Hina", "Iffat"];
 
-let newMessage = "I want to invite more guest because I found bigger dinning table";
+let newMessage = "I want to invite more guest because I found bigger table for dinner";
 
 // Add guest name to the beggining of the array
 
@@ -21,8 +21,11 @@ console.log(guestList_2);
 
 // Add guest name to middle of the array
 
-guestList_2.splice(2,0,"Aamna");
-console.log(guestList_2);
+let middle = guestList_2.length;
+console.log(middle);
+let addInMiddle = middle/2;
+console.log(addInMiddle);
+guestList_2.splice(addInMiddle, 0, "Aamna");
 
 // Add guest name to the end of the array
 
