@@ -31,8 +31,8 @@ console.log("In Alphabetical Order:" , inOrder);
 // Original array still original
 console.log("Still Original:" , countries);
 //Reverse array without modifiying the original array
-let copy = (inOrder.slice());
-console.log("In reverse mode " ,copy.reverse());
+let reversed = (inOrder.slice());
+console.log("In reverse mode " ,reversed.reverse());
 //Original array still original
 console.log("Still Original:" , countries);
 //Reverse the original array

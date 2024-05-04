@@ -22,6 +22,7 @@ console.log(guestList);
 
 //Add a new guest name
 guestList.push("Iffat");
+
 // After adding a new guest name
 console.log("This is a new guest list", guestList);
 
